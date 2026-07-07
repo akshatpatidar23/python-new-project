@@ -6,7 +6,7 @@ A Python-based data analysis project that leverages **Pandas** for data manipula
 
 ## 🚀 Project Overview
 
-The objective of this project is to load a structured dataset from a CSV file, clean and analyze the data to extract key statistical metrics (such as calculating averages), and visually explore relationships between variables using various plotting techniques.
+The objective of this project is to load a structured dataset from a CSV file, clean and analyze the data to extract key statistical metrics , and visually explore relationships between variables using various plotting techniques.
 
 ### 🛠️ Tech Stack & Libraries
 * **Python 3.x**
@@ -25,23 +25,3 @@ The objective of this project is to load a structured dataset from a CSV file, c
 ### 2. Statistical Analysis
 * Handle missing or null values appropriately.
 * Perform basic mathematical calculations, such as finding the **average (mean)**, median, and mode of selected numerical columns.
-
-### 3. Data Visualization
-* **Bar Chart:** Created to compare categorical data or show distributions across groups.
-* **Scatter Plot:** Plotted to analyze the relationship/correlation between two numerical variables.
-* **Heatmap:** Implemented to visualize the correlation matrix of the entire dataset, highlighting strong or weak relationships.
-
----
-
-## 📊 Sample Visualizations & Code Snippets
-
-### How to Calculate the Average
-```python
-import pandas as pd
-
-# Load the data
-df = pd.read_csv('your_data.csv')
-
-# Calculate the average of a specific column
-average_value = df['Target_Column'].mean()
-print(f"The average of Target_Column is: {average_value}")
